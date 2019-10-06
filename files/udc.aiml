@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+<category>
+    <pattern>hi</pattern>
+    <template>how are you?</template>
+</category>
+<category>
+    <pattern>hi</pattern>
+    <template>How do you do?</template>
+</category>
+<category>
+    <pattern>What are the prices of the smart phones </pattern>
+    <template>Which smart phone are you asking</template>
+</category>
+
+<category><pattern>I want to know the price of smart phones</pattern><template><srai>WHAT ARE THE PRICES OF THE SMART PHONES </srai></template></category>
+
+<category>
+    <pattern>How about the price of iphone11 64g</pattern>
+    <template>It costs $23300</template>
+</category>
+<category>
+    <pattern>How about iphone11 pro 64g</pattern>
+    <template>It costs 33800</template>
+</category>
+<category>
+    <pattern>That is so expensive</pattern>
+    <template>Then buy another one</template>
+</category>
+<category>
+    <pattern>Any cheap smart phone</pattern>
+    <template>Which smartphone whould you like to know</template>
+</category>
+<category>
+    <pattern>How about Samsung note 10</pattern>
+    <template>it cost 31900</template>
+</category>
+<category>
+    <pattern>Got it</pattern>
+    <template>That is my pleasure</template>
+</category>
+</aiml>
